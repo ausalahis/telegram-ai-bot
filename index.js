@@ -2,8 +2,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 
 // --- CONFIGURATION ---
-const token = 'TON_TOKEN_TELEGRAM_ICI';
-const genAI = new GoogleGenerativeAI("TA_CLE_API_GEMINI_ICI");
+const token = '8715429873:AAFggIf1Y8S0e9fxA5Wo2uDf8ZbM0kV1vTw';
+const genAI = new GoogleGenerativeAI("AIzaSyDpvlQjc9VJPOlp-rR8-cZtFVTImapS6oY");
 // ---------------------
 
 const bot = new TelegramBot(token, { polling: true });
